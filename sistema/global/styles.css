@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --cor-fundo: #fdfdfb;
+  --cor-navfooter: #b5d0f0;
+  --cor-aside: #a2cafa;
+  --cor-titulos: #bd4d44;
+  --cor-textos: #4a4a4a;
+  --cor-botoes: #379eff;
+  --cor-cards: #f0f4f8;
+}
+body {
+  background-color: var(--cor-fundo);
+}
+nav,
+footer {
+  background-color: var(--cor-navfooter);
+}
+aside {
+  background-color: var(--cor-aside);
+}
+h1,
+h3,
+h5 {
+  color: var(--cor-titulos);
+}
+p,
+a {
+  color: var(--cor-textos);
+  text-decoration: none;
+  font-size: 20px;
+}
+ul {
+  list-style: none;
+  line-height: 3;
+}
+.btn {
+  background-color: var(--cor-botoes);
+}
+.card {
+  background-color: var(--cor-cards);
+}
+footer {
+  min-height: 7vh;
+}
