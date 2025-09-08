@@ -5,13 +5,23 @@
 :root {
   --cor-fundo: #fdfdfb;
   --cor-navfooter: #b5d0f0;
-  --cor-aside: #a2cafa;
   --cor-titulos: #bd4d44;
   --cor-textos: #4a4a4a;
   --cor-botoes: #379eff;
   --cor-cards: #f0f4f8;
 }
+.darkmode {
+  --cor-fundo: #1c1c1c;
+  --cor-navfooter: #000000;
+  --cor-titulos: #ffffff;
+  --cor-textos: #ffffff;
+  --cor-botoes: #2a2a2a;
+  --cor-cards: #3c3c3c;
+}
 body {
+  background-color: var(--cor-fundo);
+}
+.cor {
   background-color: var(--cor-fundo);
 }
 nav,
@@ -38,9 +48,16 @@ ul {
 }
 .btn {
   background-color: var(--cor-botoes);
+  color: var(--cor-textos);
 }
 .card {
   background-color: var(--cor-cards);
+}
+.sessao {
+  background-color: var(--cor-cards);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 footer {
   min-height: 7vh;

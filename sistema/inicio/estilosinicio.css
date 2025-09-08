@@ -1,7 +1,15 @@
 .esp {
-  margin: 10px;
+  margin: 45px;
 }
 .espit {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.imgcar {
+  width: 80vw;
+}
+.but {
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
